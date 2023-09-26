@@ -1,0 +1,375 @@
+@font-face {
+  font-family: 'icons';
+  src: url("../fonts/icomoon.eot?uqp01s");
+  src: url("../fonts/icomoon.eot?uqp01s#iefix") format('embedded-opentype'), url("../fonts/icomoon.ttf?uqp01s") format('truetype'), url("../fonts/icomoon.woff?uqp01s") format('woff'), url("../fonts/icomoon.svg?uqp01s#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+* {
+  font-family: 'Rubik', sans-serif;
+}
+body {
+  background-color: #000;
+}
+body .header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  font-weight: bold;
+  color: #fff;
+}
+body .header .name {
+  height: min-content;
+}
+body .header .name span {
+  padding-right: 5px;
+}
+body .header .name span::before {
+  font-family: 'icons';
+  content: '\ea81';
+  color: #6e04a1;
+}
+body .header .nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #191e2c;
+  height: min-content;
+  font-size: 12px;
+  padding: 7px 5px;
+  border-radius: 30px;
+  box-shadow: rgba(200,200,200,0.25) 0px 13px 27px -5px, rgba(200,200,200,0.3) 0px 8px 16px -8px;
+}
+body .header .nav span {
+  height: min-content;
+  padding: 5px 10px;
+}
+body .header .nav span:first-child {
+  background-color: #6e04a1;
+  border-radius: 30px;
+}
+body .header .socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+}
+body .header .socials span {
+  margin-right: 3px;
+}
+body .header .socials .twitter::before {
+  font-family: 'icons';
+  content: '\ea96';
+  color: #6e04a1;
+}
+body .header .socials .twitch::before {
+  font-family: 'icons';
+  content: '\ea9f';
+  color: #6e04a1;
+}
+body .header .socials .github::before {
+  font-family: 'icons';
+  content: '\eab0';
+  color: #6e04a1;
+}
+body .header .socials .web::before {
+  font-family: 'icons';
+  content: '\e9c9';
+  color: #6e04a1;
+}
+body .home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .home .skills {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+  border-radius: 40px;
+  padding: 20px 40px;
+  height: 100px;
+  width: 57vw;
+  border: 1px solid rgba(255,255,255,0.447);
+}
+body .home .skills .il {
+  margin: 0 60px;
+}
+body .home .skills .skill {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  color: rgba(255,255,255,0.516);
+  font-size: 10px;
+}
+body .home .skills .skill .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+body .home .skills .fs .icon {
+  margin-right: 3px;
+}
+body .home .skills .fs .icon::before {
+  font-family: 'icons';
+  font-size: 1.5rem;
+  content: '\ea81';
+  color: #6e04a1;
+}
+body .home .skills .il .icon {
+  margin-right: 3px;
+}
+body .home .skills .il .icon::before {
+  font-family: 'icons';
+  font-size: 1.5rem;
+  content: '\e99e';
+  color: #6e04a1;
+}
+body .home .skills .sm .icon {
+  margin-right: 3px;
+}
+body .home .skills .sm .icon::before {
+  font-family: 'icons';
+  font-size: 1.5rem;
+  content: '\e9b3';
+  color: #6e04a1;
+}
+body .home .profile-card {
+  display: flex;
+  width: max-content;
+}
+body .home .profile-card .info {
+  padding-right: 60px;
+  width: 400px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+body .home .profile-card .info .title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+body .home .profile-card .info .description {
+  color: rgba(255,255,255,0.57);
+}
+body .home .profile-card .info .tags {
+  margin-top: 25px;
+  display: flex;
+  justify-content: start;
+}
+body .home .profile-card .info .tags div {
+  background-color: #6e04a1;
+  font-size: 12px;
+  border-radius: 30px;
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+body .home .profile-card .info .tags div span {
+  margin-right: 5px;
+}
+body .home .profile-card .info .tags div .dv::before {
+  font-family: 'icons';
+  content: '\ea80';
+  color: #fff;
+}
+body .home .profile-card .info .tags div .sp::before {
+  font-family: 'icons';
+  content: '\e91e';
+  color: #fff;
+}
+body .home .profile-card .info .tags div .wt::before {
+  font-family: 'icons';
+  content: '\e905';
+  color: #fff;
+}
+body .home .profile-card .photo img {
+  height: 400px;
+  border-radius: 50px;
+  box-shadow: rgba(200,200,200,0.25) 0px 13px 27px -5px, rgba(200,200,200,0.3) 0px 8px 16px -8px;
+}
+body .work {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+body .work .selected-work {
+  display: flex;
+  flex-direction: column;
+  width: 57vw;
+  padding: 20px 40px;
+}
+body .work .selected-work .text {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  color: #fff;
+}
+body .work .selected-work .text .info {
+  color: rgba(255,255,255,0.493);
+  width: 450px;
+  font-size: 14px;
+}
+body .work .selected-work .text .info .title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+body .work .selected-work .text .btn {
+  padding: 8px 40px;
+  height: min-content;
+  border-radius: 30px;
+  background-color: #6e04a1;
+}
+body .work .selected-work .text .btn span {
+  margin-left: 15px;
+}
+body .work .selected-work .text .btn span::before {
+  font-family: 'icons';
+  content: '\ea3c';
+  color: #fff;
+}
+body .work .selected-work .works {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+body .work .selected-work .works .work {
+  position: relative;
+  margin-bottom: 20px;
+  width: 40%;
+  height: 200px;
+  border-radius: 15px;
+}
+body .work .selected-work .works .work:nth-child(2n) {
+  margin-left: 30px;
+}
+body .work .selected-work .works .work:nth-child(2n+1) {
+  top: 60px;
+}
+body .work .selected-work .works .work .wk-tag {
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  background-color: #08090d;
+  color: #fff;
+  border-radius: 10px;
+  margin: 8px 8px;
+  padding: 3px 5px;
+}
+body .work .selected-work .works .wk1 {
+  background-image: url("../assets/stock-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body .work .selected-work .works .wk2 {
+  background-image: url("../assets/stock-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body .work .selected-work .works .wk3 {
+  background-image: url("../assets/stock-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body .work .selected-work .works .wk4 {
+  background-image: url("../assets/stock-4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body .about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .about .mentions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 57vw;
+  padding: 20px 40px;
+  margin-bottom: 50px;
+}
+body .about .mentions .title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+body .about .mentions .info {
+  text-align: center;
+  color: rgba(255,255,255,0.493);
+  width: 450px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+body .about .mentions .cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+  padding: 0 60px;
+  color: rgba(255,255,255,0.519);
+}
+body .about .mentions .cards div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 100px;
+  border: 1px solid #fff;
+  margin: 0 10px 20px 10px;
+  border-radius: 15px;
+}
+body .about .working-together {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(255,255,255,0.336);
+  height: 200px;
+  border-bottom: 1px solid rgba(255,255,255,0.336);
+  width: 100%;
+  color: #fff;
+}
+body .about .working-together .text {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left: 30px;
+  width: 300px;
+}
+body .about .working-together .btn {
+  padding: 8px 40px;
+  height: min-content;
+  border-radius: 30px;
+  background-color: #6e04a1;
+  margin-right: 30px;
+}
+body .about .working-together .btn span {
+  margin-left: 15px;
+}
+body .about .working-together .btn span::before {
+  font-family: 'icons';
+  content: '\e949';
+  color: #fff;
+}
+body .footer {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255,255,255,0.403);
+  padding: 10px 35px;
+  font-size: 10px;
+}
+body .footer span {
+  margin-right: 3px;
+}
